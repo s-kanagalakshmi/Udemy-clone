@@ -1,11 +1,188 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Gabarito:wght@400..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>Document</title>
 </head>
+
 <body>
-    
+    <!-- navbar -->
+    <div class="navbar">
+        <div class="navbar__firstSection">
+            <h1 class="navbar__firstSection__title">Udemy</h1>
+        </div>
+        <div class="navbar__secondSection">
+            <i class="fa-solid fa-magnifying-glass"></i>
+            <input type="text" placeholder="Search for anything here,Tech,Business,Art,...">
+        </div>
+        <div class="navbar__thirdSection">
+            <p>Courses</p>
+            <p>Learning</p>
+            <i class="fa-solid fa-cart-shopping"></i>
+            <i class="fa-solid fa-bell"></i>
+            <i class="fa-solid fa-user"></i>
+        </div>
+    </div>
+    <!-- categories -->
+    <div class="categories">
+        <p class="categories_title">Development</p>
+        <p class="categories_title">Business</p>
+        <p class="categories_title">IT & Software</p>
+        <p class="categories_title">Personal Development</p>
+        <p class="categories_title">Design</p>
+        <p class="categories_title">Marketing</p>
+    </div>
+    <!-- ---Advertisement image -->
+    <div class="sale-image">
+        <img src="./Assets/sale-image.png" alt="">
+    </div>
+    <!-- Recommended section -->
+    <div class="recommended-section">
+        <h1 class="recommended-section__title">Recommended for you</h1>
+        <p>Pick the best for you</p>
+        <div class="recommended-section__images">
+            <div class="course-card">
+                <img src="./Assets/python.png" alt="">
+                <p>2023 Python Data Visualisation Masterclass</p>
+                <p>Col Steele</p>
+                <p>4.8 ⭐⭐⭐⭐</p>
+                <p>449 <del>1999</del></p>
+            </div>
+            <div class="course-card">
+                <img src="./Assets/webdev.jpg" alt="">
+                <p>Web Development Bootcamp 2023 | Advance</p>
+                <p>Col Steele</p>
+                <p>3.2 ⭐⭐⭐</p>
+                <p>449 <del>1899</del></p>
+            </div>
+            <div class="course-card">
+                <img src="./Assets/uiux.jpg" alt="">
+                <p>Master UI/UX designing with Figma</p>
+                <p>Col Steele</p>
+                <p>4.8 ⭐⭐⭐⭐</p>
+                <p>449 <del>2599</del></p>
+            </div>
+            <div class="course-card">
+                <img src="./Assets/java.png" alt="">
+                <p>Basic to Advance Java Core Training</p>
+                <p>Col Steele</p>
+                <p>4.8 ⭐⭐⭐⭐</p>
+                <p>449 <del>1999</del></p>
+            </div>
+        </div>
+    </div>
+    <!-- Topic section -->
+    <div class="topic__section">
+        <h1 class="topic__section__title">Topics Recommended for you</h1>
+        <div class="topic__container">
+            <p>Javascript</p>
+            <p>React</p>
+            <p>Angular</p>
+            <p>Mongo DB</p>
+            <p>Next JS</p>
+            <p>CSS</p>
+            <p>HTML</p>
+            <p>GitHub</p>
+            <p>Azure</p>
+        </div>
+    </div>
+    <!-- Popular section -->
+    <div class="popular__section">
+        <h1 class="popular__section__title">Most Popular</h1>
+        <p class="popular__section__subheading">Pick the best for you</p>
+        <div class="popular__container">
+            <div class="course-card">
+                <img src="./Assets/python.png" alt="">
+                <p>2023 Python Data Visualisation Masterclass</p>
+                <p>Col Steele</p>
+                <p>4.8 ⭐⭐⭐⭐</p>
+                <p>449 <del>1999</del></p>
+            </div>
+            <div class="course-card">
+                <img src="./Assets/webdev.jpg" alt="">
+                <p>Web Development Bootcamp 2023 | Advance</p>
+                <p>Col Steele</p>
+                <p>3.2 ⭐⭐⭐</p>
+                <p>449 <del>1899</del></p>
+            </div>
+            <div class="course-card">
+                <img src="./Assets/uiux.jpg" alt="">
+                <p>Master UI/UX designing with Figma</p>
+                <p>Col Steele</p>
+                <p>4.8 ⭐⭐⭐⭐</p>
+                <p>449 <del>2599</del></p>
+            </div>
+            <div class="course-card">
+                <img src="./Assets/java.png" alt="">
+                <p>Basic to Advance Java Core Training</p>
+                <p>Col Steele</p>
+                <p>4.8 ⭐⭐⭐⭐</p>
+                <p>449 <del>1999</del></p>
+            </div>
+            <div class="course-card">
+                <img src="./Assets/python.png" alt="">
+                <p>2023 Python Data Visualisation Masterclass</p>
+                <p>Col Steele</p>
+                <p>4.8 ⭐⭐⭐⭐</p>
+                <p>449 <del>1999</del></p>
+            </div>
+            <div class="course-card">
+                <img src="./Assets/webdev.jpg" alt="">
+                <p>Web Development Bootcamp 2023 | Advance</p>
+                <p>Col Steele</p>
+                <p>3.2 ⭐⭐⭐</p>
+                <p>449 <del>1899</del></p>
+            </div>
+            <div class="course-card">
+                <img src="./Assets/uiux.jpg" alt="">
+                <p>Master UI/UX designing with Figma</p>
+                <p>Col Steele</p>
+                <p>4.8 ⭐⭐⭐⭐</p>
+                <p>449 <del>2599</del></p>
+            </div>
+            <div class="course-card">
+                <img src="./Assets/java.png" alt="">
+                <p>Basic to Advance Java Core Training</p>
+                <p>Col Steele</p>
+                <p>4.8 ⭐⭐⭐⭐</p>
+                <p>449 <del>1999</del></p>
+            </div>
+        </div>
+
+    </div>
+    <div class="footer">
+        <div class="footer__firstSection">
+            <div class="footer__firstSection__partOne">
+                <p>Udemy Business</p>
+                <p>Teach On Udemy</p>
+                <p>Get the App</p>
+                <p>About Us</p>
+                <p>Contact Us</p>
+            </div>
+            <div class="footer__firstSection__partTwo">
+                <p>Careers</p>
+                <p>Blog</p>
+                <p>Help and Support</p>
+                <p>Affiliate</p>
+                <p>Investors</p>
+            </div>
+
+        </div>
+        <div class="footer__secondSection">
+            <h1>Udemy</h1>
+            <p>&copy; Udemy, Inc</p>
+        </div>
+
+    </div>
 </body>
+
 </html>
