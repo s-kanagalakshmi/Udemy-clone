@@ -280,6 +280,12 @@ button:hover{
         display: block;
         font-size: larger;
     }
-
+    .sale-image__flash
+    {
+     left:10px;
+     bottom:10px;
+        height:85px;
+        width:200px;
+    }
 
 }
